@@ -1,0 +1,9 @@
+<div class="wrapper">
+    <div *ngFor="let product of products" class="card">
+        <img src="https://via.placeholder.com/350">
+        <h1>{{product.name}}</h1>
+        <p class="price">${{product.price}}</p>
+        <p>{{product.description}}</p>
+        <p><button>Add to Cart</button></p>
+    </div>
+</div>
